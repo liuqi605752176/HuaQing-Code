@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/shmat1_snd.c.dir/shmat1_rcv.c.o  -o shmat1_snd.c 

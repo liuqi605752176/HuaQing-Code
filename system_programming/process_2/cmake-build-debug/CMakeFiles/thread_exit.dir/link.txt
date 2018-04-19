@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/thread_exit.dir/thread_exit.c.o  -o thread_exit 

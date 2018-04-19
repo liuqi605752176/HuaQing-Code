@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuqi/Documents/system_programming/process_2/pthread.c
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+semaphore.h
+-
+

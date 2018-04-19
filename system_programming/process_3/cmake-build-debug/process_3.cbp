@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="process_3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mykill">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/mykill" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 mykill"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mykill/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/mykill" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 mykill/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkfifo_read">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/mkfifo_read" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 mkfifo_read"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkfifo_read/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/mkfifo_read" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 mkfifo_read/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipe">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/pipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pipe"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipe/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/pipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pipe/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sigset">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/sigset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 sigset"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sigset/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/sigset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 sigset/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkfifo_write">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/mkfifo_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 mkfifo_write"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkfifo_write/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/mkfifo_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 mkfifo_write/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_cond">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/thread_cond" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread_cond"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_cond/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/thread_cond" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread_cond/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_3/mkfifo_read.c">
+			<Option target="mkfifo_read"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_3/mkfifo_write.c">
+			<Option target="mkfifo_write"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_3/mykill.c">
+			<Option target="mykill"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_3/pipe.c">
+			<Option target="pipe"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_3/sigset.c">
+			<Option target="sigset"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_3/thread_cond.c">
+			<Option target="thread_cond"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

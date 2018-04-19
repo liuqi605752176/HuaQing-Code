@@ -1,0 +1,8 @@
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/mykill.dir
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/mkfifo_read.dir
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/pipe.dir
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/sigset.dir
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/mkfifo_write.dir
+/home/liuqi/Documents/system_programming/process_3/cmake-build-debug/CMakeFiles/thread_cond.dir

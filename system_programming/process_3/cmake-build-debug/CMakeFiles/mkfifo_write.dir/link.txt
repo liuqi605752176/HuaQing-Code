@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mkfifo_write.dir/mkfifo_write.c.o  -o mkfifo_write 

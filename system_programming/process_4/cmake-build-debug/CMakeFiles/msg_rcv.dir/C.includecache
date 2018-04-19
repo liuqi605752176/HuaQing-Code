@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuqi/Documents/system_programming/process_4/msg_rcv.c
+sys/types.h
+-
+sys/ipc.h
+-
+stdlib.h
+-
+stdio.h
+-
+sys/msg.h
+-
+errno.h
+-
+strings.h
+-
+

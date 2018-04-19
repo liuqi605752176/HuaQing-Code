@@ -1,0 +1,5 @@
+/home/liuqi/Documents/system_programming/IO_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/system_programming/IO_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/system_programming/IO_1/cmake-build-debug/CMakeFiles/fopen.dir
+/home/liuqi/Documents/system_programming/IO_1/cmake-build-debug/CMakeFiles/cp.dir
+/home/liuqi/Documents/system_programming/IO_1/cmake-build-debug/CMakeFiles/open.dir

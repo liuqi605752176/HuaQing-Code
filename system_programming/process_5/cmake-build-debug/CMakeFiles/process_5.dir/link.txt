@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/process_5.dir/main.c.o  -o process_5 

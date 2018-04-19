@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuqi/Documents/system_programming/process_2/daemon.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+time.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+

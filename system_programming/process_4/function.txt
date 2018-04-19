@@ -1,0 +1,91 @@
+一、消息队列
+1.key_t ftok(const char *pathname, int proj_id);
+    功能：获取一个key值
+    参数：①pathname:路径名
+         ②proj_id:整型值
+    返回值：成功返回key,失败返回-1并设置errno号
+
+  例如：key = ftok("/home/linux/",'a');
+
+2.int msgget(key_t key,int msgflg);
+    功能：创建或者打开一个消息队列
+    參數：①key:消息隊列的鍵值
+         ②msgflg:權限標志位IPC_CREAT创建和IPC_EXCL结合使用
+                    如果消息队列已存在,则报错,errno号为EEXIST
+
+    返回值：消息队列ID
+  key值获取方式：
+        ①直接写入一个整型值
+        ②IPC_PRIVATE
+        ③通过ftok获取
+  例如：msgget(key,IPC_CREAT | IPC_EXCL |0664)
+
+3.int msgsnd(int msqid, const void *msgp, size_t msgsz, int msgflg)
+    功能：发送队列消息
+    参数：①msqid:消息队列ID
+         ②msgp:消息结构体地址
+         ③msgsz:消息结构体的字节数(不包括消息类型的大小)
+         ④msgflg:IPC_NOWAIT 消息无法立即发送,函数立即返回,不等待
+                    0：msgsnd调用阻塞知道发送成功
+    返回值：成功返回0,失败返回-1并设置errno号
+
+4. ssize_t msgrcv(int msqid, void *msgp, size_t msgsz, long msgtyp,int msgflg);
+    功能：接收队列消息
+    参数：①msqid:消息队列ID
+         ②msgp:消息缓冲区，和msgsnd中的msgp参数保持一致
+         ③msgsz:消息结构体的字节数(不包括消息类型的大小)
+         ④msgtyp:发送时设置的消息类型
+         ⑤msgflg:IPC_NOWAIT 如果消息队列中没有相应类型的消息,函数立即返回
+                    0  调用阻塞直到接收到一条相应类型的消息
+    返回值：成功返回0,失败返回-1
+
+
+5.ipcs     查看IPC工具
+    ipcs -q (Message Queues) 查看消息队列
+    ipcs -m (Shared Memory Segments) 查看共享内存
+    ipcs -s (Semaphore Arrays)查看信号灯集
+  ipcrm -q/-m/-s id 删除消息队列/共享内存/信号灯集
+
+6. int msgctl(int msqid, int cmd, struct msqid_ds *buf);
+    功能：控制消息队列
+    参数：①msqid:消息队列ID
+         ②cmd:
+                IPC_STAT 获取状态
+                IPC_SET  设置消息队列属性
+                IPC_RMID 删除消息队列
+         ③如果是stat或set，则需要定义一个指定的结构体指针,如果cmd为
+    返回值：成功返回0，失败返回-1并设置errno号
+
+二、共享内存
+1.int shmget(key_t key, size_t size, int shmflg);
+    功能：打开或创建共享内存
+    参数：①key
+         ②size：创建时有效，创建共享内存的大小
+         ③shmflg:IPC_CREAT 创建| IPC_EXCL |0664
+    返回值：成功返回shmid,失败返回-1
+ 例如：shmget(key,sizeof(shmbuf),IPC_CREAT|O_EXCL|0664)
+
+ 2. void *shmat(int shmid, const void *shmaddr, int shmflg)
+    功能：共享内存映射
+    参数：①shmid:要映射的共享内存的标识符
+         ②shmaddr:设定指定的映射地址,设为NULL时,由系统默认设置
+         ③shmflg:SHM_RDONLY 设定内存只读
+                    0    默认可读写
+    返回值：成功返回被映射的地址,失败返回(void *)-1
+
+ 3.int shmdt(const void *shmaddr)
+    功能：取消映射
+    参数：shmaddr 取消的共享内存的地址,shmat函数的返回值
+    返回值：成功返回0,失败返回-1
+
+ 4.int shmctl(int shmid, int cmd, struct shmid_ds *buf)
+    功能：控制共享内存
+    参数：①shmid：指定的共享内存标识符
+         ②cmd:
+                IPC_RMID 删除共享内存
+                IPC_STAT 获取状态
+                IPC_SET  设置共享内存属性
+         ③buf:如果是stat或者set,则需要定义一个指定的结构体指针,如果cmd
+                为RMID,填NULL
+    返回值：成功返回0,失败返回-1.
+

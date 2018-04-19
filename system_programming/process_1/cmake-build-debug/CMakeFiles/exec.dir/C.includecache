@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuqi/Documents/system_programming/process_1/exec.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+signal.h
+-
+

@@ -1,0 +1,10 @@
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/shm.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/shmat_rcv.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/shmat_snd.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/shm_rcv.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/shm_send.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/msg_send.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/msg_rcv.dir
+/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/CMakeFiles/msg.dir

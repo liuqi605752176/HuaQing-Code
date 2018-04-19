@@ -1,0 +1,8 @@
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/exit.dir
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/waitpid.dir
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/wait.dir
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/exec.dir
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/fork.dir
+/home/liuqi/Documents/system_programming/process_1/cmake-build-debug/CMakeFiles/getpid.dir

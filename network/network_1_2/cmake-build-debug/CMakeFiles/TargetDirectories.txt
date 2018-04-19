@@ -1,0 +1,13 @@
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/ftp_tcp_server.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/client.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/server.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/inet_addr.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/tcp_fork.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/udp_client.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/htnos.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/udp_server.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/tcp_server.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/tcp_client.dir
+/home/liuqi/Documents/network/network_1_2/cmake-build-debug/CMakeFiles/ftp_tcp_client.dir

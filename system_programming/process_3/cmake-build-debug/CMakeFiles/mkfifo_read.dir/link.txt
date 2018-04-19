@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mkfifo_read.dir/mkfifo_read.c.o  -o mkfifo_read 

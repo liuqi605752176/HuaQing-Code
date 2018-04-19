@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/open.dir/open.c.o  -o open 

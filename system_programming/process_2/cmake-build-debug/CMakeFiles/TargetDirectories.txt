@@ -1,0 +1,12 @@
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/daemon.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/mutex.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/pthread.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/sem.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/thread_exit.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/pthread_mutex.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/thread_join.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/main_thread.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/thread_cancel.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/thread_kill.dir

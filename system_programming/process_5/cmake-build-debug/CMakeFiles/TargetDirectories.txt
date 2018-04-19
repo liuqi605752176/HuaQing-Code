@@ -1,0 +1,3 @@
+/home/liuqi/Documents/system_programming/process_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/system_programming/process_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/system_programming/process_5/cmake-build-debug/CMakeFiles/mysem.dir

@@ -1,0 +1,4 @@
+/home/liuqi/Documents/network/network_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/network/network_3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/network/network_3/cmake-build-debug/CMakeFiles/ftp_tcp_server.dir
+/home/liuqi/Documents/network/network_3/cmake-build-debug/CMakeFiles/ftp_tcp_client.dir

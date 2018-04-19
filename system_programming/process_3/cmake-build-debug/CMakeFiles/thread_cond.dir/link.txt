@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/thread_cond.dir/thread_cond.c.o  -o thread_cond -lpthread 

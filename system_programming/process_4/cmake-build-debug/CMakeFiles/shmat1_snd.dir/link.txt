@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/shmat1_snd.dir/shmat1_snd.c.o  -o shmat1_snd 

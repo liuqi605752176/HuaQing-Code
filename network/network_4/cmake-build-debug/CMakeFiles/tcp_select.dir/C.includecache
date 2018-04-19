@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuqi/Documents/network/network_4/tcp_select.c
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+string.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+

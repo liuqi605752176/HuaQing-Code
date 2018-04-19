@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuqi/Documents/person/apeu.h
+stdio.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+string.h
+-
+strings.h
+-
+stdlib.h
+-
+errno.h
+-
+signal.h
+-
+sys/types.h
+-
+unistd.h
+-
+
+/home/liuqi/Documents/system_programming/process_4/shmat_snd.c
+apeu.h
+-
+

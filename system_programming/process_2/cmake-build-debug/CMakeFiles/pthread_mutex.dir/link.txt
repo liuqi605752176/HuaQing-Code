@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/pthread_mutex.dir/pthread_mutex.c.o  -o pthread_mutex 

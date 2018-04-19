@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/IO_2.dir/main.c.o  -o IO_2 

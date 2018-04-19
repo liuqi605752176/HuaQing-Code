@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="process_4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shm">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shm"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shm/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shm/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shmat_rcv">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shmat_rcv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shmat_rcv"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shmat_rcv/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shmat_rcv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shmat_rcv/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shmat_snd">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shmat_snd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shmat_snd"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shmat_snd/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shmat_snd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shmat_snd/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shm_rcv">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shm_rcv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shm_rcv"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shm_rcv/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shm_rcv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shm_rcv/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shm_send">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shm_send" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shm_send"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shm_send/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/shm_send" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 shm_send/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msg_send">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/msg_send" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 msg_send"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msg_send/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/msg_send" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 msg_send/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msg_rcv">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/msg_rcv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 msg_rcv"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msg_rcv/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/msg_rcv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 msg_rcv/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msg">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/msg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 msg"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msg/fast">
+				<Option output="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/msg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuqi/Documents/system_programming/process_4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuqi/Documents/person"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 msg/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/liuqi/Documents/system_programming/process_4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/msg.c">
+			<Option target="msg"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/msg_rcv.c">
+			<Option target="msg_rcv"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/msg_send.c">
+			<Option target="msg_send"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/shm.c">
+			<Option target="shm"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/shm_rcv.c">
+			<Option target="shm_rcv"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/shm_send.c">
+			<Option target="shm_send"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/shmat_rcv.c">
+			<Option target="shmat_rcv"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/shmat_snd.c">
+			<Option target="shmat_snd"/>
+		</Unit>
+		<Unit filename="/home/liuqi/Documents/system_programming/process_4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

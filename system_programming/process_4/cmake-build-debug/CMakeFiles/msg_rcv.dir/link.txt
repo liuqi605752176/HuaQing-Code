@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/msg_rcv.dir/msg_rcv.c.o  -o msg_rcv 

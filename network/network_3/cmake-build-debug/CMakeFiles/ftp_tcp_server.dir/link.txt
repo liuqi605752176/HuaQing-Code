@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ftp_tcp_server.dir/ftp_tcp_server.c.o  -o ftp_tcp_server 

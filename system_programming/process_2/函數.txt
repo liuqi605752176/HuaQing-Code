@@ -1,0 +1,26 @@
+1.線程創建
+	pthread_create(&tid,NULL,function,NULL);
+2.等待指定的線程結束回收線程
+	第二個參數可以定爲指針接收pthread_exit的退出碼，默認爲NULL
+	pthread_join(&tid,NULL);
+3.退出線程，返回值爲退出碼
+	pthread_exit(void *reval)
+
+
+同步：(信號量)
+4.初始化信號量
+	sem_init(&mutex,0,value)
+5.p操作
+	sem_wait(&mutex)
+6.v操作
+	sem_post(&mutex)
+
+
+互斥鎖
+
+7.初始化互斥鎖，第二個參數鎖的屬性，默認爲NULL
+	pthread_mutex_init(&mutex,NULL)
+8.上鎖
+	pthread_mutex_lock(&mutex)
+9.開鎖
+	pthread_mutex_unlock(&mutex)

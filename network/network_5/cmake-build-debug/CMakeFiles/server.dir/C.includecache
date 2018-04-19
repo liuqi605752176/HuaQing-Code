@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuqi/Documents/network/network_5/my_dict.h
+
+/home/liuqi/Documents/network/network_5/server.c
+my_dict.h
+/home/liuqi/Documents/network/network_5/my_dict.h
+stdio.h
+-
+sys/socket.h
+-
+string.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+signal.h
+-
+unistd.h
+-
+stdlib.h
+-
+sqlite3.h
+-
+

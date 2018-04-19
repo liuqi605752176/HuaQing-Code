@@ -1,0 +1,75 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04ff7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04ff7.dir/build.make CMakeFiles/cmTC_04ff7.dir/build
+make[1]: Entering directory '/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04ff7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_04ff7.dir/CheckSymbolExists.c.o   -c /home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_04ff7
+/home/liuqi/Downloads/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04ff7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_04ff7.dir/CheckSymbolExists.c.o  -o cmTC_04ff7 
+CMakeFiles/cmTC_04ff7.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_04ff7.dir/build.make:97: recipe for target 'cmTC_04ff7' failed
+make[1]: *** [cmTC_04ff7] Error 1
+make[1]: Leaving directory '/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04ff7/fast' failed
+make: *** [cmTC_04ff7/fast] Error 2
+
+File /home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36a07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36a07.dir/build.make CMakeFiles/cmTC_36a07.dir/build
+make[1]: Entering directory '/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36a07.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_36a07.dir/CheckFunctionExists.c.o   -c /home/liuqi/Downloads/clion-2018.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36a07
+/home/liuqi/Downloads/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36a07.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_36a07.dir/CheckFunctionExists.c.o  -o cmTC_36a07 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_36a07.dir/build.make:97: recipe for target 'cmTC_36a07' failed
+make[1]: *** [cmTC_36a07] Error 1
+make[1]: Leaving directory '/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_36a07/fast' failed
+make: *** [cmTC_36a07/fast] Error 2
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: /home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36a07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36a07.dir/build.make CMakeFiles/cmTC_36a07.dir/build
+make[1]: Entering directory '/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36a07.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_36a07.dir/CheckFunctionExists.c.o   -c /home/liuqi/Downloads/clion-2018.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36a07
+/home/liuqi/Downloads/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36a07.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_36a07.dir/CheckFunctionExists.c.o  -o cmTC_36a07 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_36a07.dir/build.make:97: recipe for target 'cmTC_36a07' failed
+make[1]: *** [cmTC_36a07] Error 1
+make[1]: Leaving directory '/home/liuqi/Documents/system_programming/process_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_36a07/fast' failed
+make: *** [cmTC_36a07/fast] Error 2
+
+

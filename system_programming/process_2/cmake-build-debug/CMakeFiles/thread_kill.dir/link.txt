@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/thread_kill.dir/thread_kill.c.o  -o thread_kill 

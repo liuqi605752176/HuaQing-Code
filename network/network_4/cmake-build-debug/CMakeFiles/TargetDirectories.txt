@@ -1,0 +1,5 @@
+/home/liuqi/Documents/network/network_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuqi/Documents/network/network_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liuqi/Documents/network/network_4/cmake-build-debug/CMakeFiles/epoll.dir
+/home/liuqi/Documents/network/network_4/cmake-build-debug/CMakeFiles/tcp_select.dir
+/home/liuqi/Documents/network/network_4/cmake-build-debug/CMakeFiles/udp_select.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/exc.dir/fork.c.o  -o exc 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/fopen.dir/fopen.c.o  -o fopen 

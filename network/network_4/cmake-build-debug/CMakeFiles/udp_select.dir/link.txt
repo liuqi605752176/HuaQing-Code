@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/udp_select.dir/udp_select.c.o  -o udp_select 
